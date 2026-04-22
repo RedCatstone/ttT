@@ -88,17 +88,6 @@
 		flex: 0.6;
 	}
 
-	.genesis {
-		color: var(--color-rgb-YAY);
-		font-family: "Comic Sans MS", "Comic Sans", cursive;
-		font-weight: bold;
-		text-shadow: 
-			5px 5px 0px #ff00ff60,
-			-5px -5px 0px #00ffff4b, 
-			10px 10px 5px #ff00004d, 
-			-10px -10px 5px #00ff0033;
-	}
-
 	h1 {
 		width: 100%;
 	}
