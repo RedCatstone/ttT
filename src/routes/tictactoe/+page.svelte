@@ -116,8 +116,18 @@
 		border-radius: 20px;
 		border: 2px solid black;
 	}
+
+	@keyframes jitter {
+		0% { transform: translate(0, 0) rotate(0deg); }
+		25% { transform: translate(5px, -5px) rotate(2deg); }
+		50% { transform: translate(-5px, 5px) rotate(-2deg); }
+		75% { transform: translate(5px, 5px) rotate(2deg); }
+		100% { transform: translate(0, 0) rotate(0deg); }
+	}
+
 	.board.gameOver {
 		pointer-events: none;
+		animation: jitter 0.1s infinite;
 	}
 
 	.row {
