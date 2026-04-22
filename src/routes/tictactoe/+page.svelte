@@ -54,6 +54,7 @@
 	}
 
 	function clearGrid() {
+		// clears grid
 		grid = [
 			[' ', ' ', ' '],
 			[' ', ' ', ' '],
